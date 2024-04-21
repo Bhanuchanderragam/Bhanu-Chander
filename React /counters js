@@ -1,0 +1,17 @@
+import rect ,{use staste} 'react' ;
+function counter(){
+  const[num,setcount]=usestate(0)
+return(
+<div style={{display: "flex",justify content :center",flex Direction:"column;alignitems ; "center', height:" 100vh"' backgroumdcolor:
+<div>
+<h1 style ={{ fotsize:" 50px",marginleft:"20}}>{num}</h1>
+</div>
+<div style ={{display : "flex" 'gap: "50px",margintTOp:" 40px"}}>
+<button classname=btn btn-success" on click ={()=>(set count(num+1))}increment</button>
+<button classname ="btn btn-danger" on click = {()=>(set count(num-1))}>decrement</button>
+<button class name ="btn btn -warning " on click={()=>(set count(0))}>Reset </button>
+</div>
+</div>
+   )
+}
+export{ conter}
